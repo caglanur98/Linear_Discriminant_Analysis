@@ -1,9 +1,9 @@
-# LDA Analysis on fMRI Data — Stimulation vs Imagery Classification
+# LDA on fMRI Data — Stimulation vs Imagery Classification
 
 This repository contains MATLAB code and results for a Linear Discriminant Analysis (LDA) classification of fMRI data using the SPM12 toolbox.
 The analysis aims to distinguish brain activity patterns between stimulation and imagery conditions in the right BA2 region of the primary somatosensory cortex, following the paradigm described in Nierhaus et al. (2023).
 
-# Overview
+## Overview
 
 We applied LDA to beta images from 10 subjects, extracted for:
 
@@ -13,7 +13,7 @@ We applied LDA to beta images from 10 subjects, extracted for:
 
 For each subject, data from these sub-conditions were combined into the broader “Stimulation” and “Imagery” categories.
 
-# Analysis Steps:
+## Analysis Steps:
 
 1. ROI extraction — masked beta images to right BA2 voxels.
 
